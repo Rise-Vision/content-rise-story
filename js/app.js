@@ -40,7 +40,7 @@
         $(window).scroll(function () {
             if ($(window).scrollTop() < 300) {
                 $('#socialsection').css({
-                    opacity: "0"
+                    opacity: "1"
                 }, 500);
             } else if ($(window).scrollTop() > 300) {
                 $('#socialsection').css({
