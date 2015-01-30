@@ -25,35 +25,24 @@
 
 <!-- Finally we will load the font from Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
+
+<!-- Sign up Free button with QR Code -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>	
+<script>
+	$(document).ready(function () {
     
+    $('button').click( function () {
+        $('#message-box').slideDown('slow').delay(2000).slideUp('slow');
+    });
+    
+});
+	</script>
+	
 </head>
 
 <body id="top">
 
-<!-- Start of Social Section at bottom of page --> 
-<div id="socialsection">
-
-    <!-- You MUST add the URL's for your account at each social network in the code below to swap out the hash # tag -->
-    <!--<div id="social-left">
-        <a href="#"><i class="icon-gplus"></i></a>
-        <a href="#"><i class="icon-pinterest"></i></a>
-        <a href="#"><i class="icon-facebook"></i></a>
-        <a href="#"><i class="icon-twitter"></i></a>
-    </div>-->
-    
-    <div id="social-button">Sign Up Free</div>
-    
-    <!-- You MUST change the URL definition in these links to share YOUR page - simply change the URL -->
-    <div id="social-right">
-        <a href="https://plus.google.com/share?url=http://mythemepreviews.com/uno_personal/video/" target="_blank"><i class="icon-gplus"></i></a>
-        <a href="http://pinterest.com/pin/create/button/?url=http://mythemepreviews.com/uno_personal/video/" target="_blank"><i class="icon-pinterest"></i></a>
-        <a href="http://www.facebook.com/share.php?u=http://mythemepreviews.com/uno_personal/video/"  target="_blank"><i class="icon-facebook"></i></a>
-        <a href="http://twitter.com/home?status=http://mythemepreviews.com/uno_personal/video/"  target="_blank"><i class="icon-twitter"></i></a>
-    </div>
-    
-</div><!-- End of Social Section at bottom of page -->     
-    
-        
+ 
 
 <!-- HEADER SECTION -->
 <header>
@@ -61,6 +50,9 @@
     <!-- Start of Header Container - the content div that is a set width and centralized -->
     <div class="header-container">
         
+		
+      
+
         <div id="menu" class="menu">
             <div id="nav" class="nav">
                 <ul>
@@ -79,8 +71,7 @@
 
     </div><!-- End of Header Container -->
     
-</header>
-    
+</header>	 
     
 <!-- TOP SECTION -->
 
@@ -123,6 +114,13 @@
     <div id="background"></div><!-- End of Background -->
 
 </div><!-- End of Video Element -->
+	
+	
+
+	<!-- Sign up Free button with QR Code -->
+<button><img src="img/google_256.png"/>&ensp;&ensp;Sign Up Free</button>
+<div id="message-box"><img src="img/qrcode.png"/></div>
+		<div>
 
 <!-- Start of Scroll Down Message and animation -->
     		<div class="floating godown">
