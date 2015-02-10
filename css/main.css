@@ -23,6 +23,7 @@ body, html {
 	text-rendering: optimizeLegibility;
     background-position: center center;
 }
+	
 footer { background-color: #262B30; padding: 20px 0 50px 0; }
 footer p {
 	color: #ffffff;
@@ -176,7 +177,7 @@ p.caption {
     opacity: 0.6;
 }
 p a, ul li a, ol li a {color: #ffffff ; text-decoration: none; border-bottom: 1px solid transparent; transition: all 0.2s ease-in-out; font-weight: 600;}
-p a:hover, ul li a:hover, ol li a:hover {color: #ffffff ; text-decoration: none; border-bottom: 1px solid #ffffff; padding-bottom: 3px;}
+p a:hover, ul li a:hover, ol li a:hover {color: #ffffff ; text-decoration: none; padding-bottom: 3px;}
 ul, ol {
     margin: 20px 0;
     padding: 0;
@@ -260,28 +261,25 @@ blockquote p {
 	-webkit-backface-visibility:hidden;
 }
 
+/*home page arrow*/
 .godown {
 	position: absolute;
-	top:80vh;
+	top:85vh;
 	z-index:999;
 	width: 20vw;
 	left:40vw;
 	text-align:center;	
 }
 
-
+/*subsequent page arrow*/
 .gonext {
 	position: absolute;
-	top:75vh;
+	top:78vh;
 	left: 0px;
     margin: auto;
     width: 100%;
 	text-align:center;
     z-index:999;
-}
-
-.gonext p {
-
 }
 
 .huge-title {
@@ -324,6 +322,7 @@ background-color: rgba(255, 255, 255, 0.3);
     padding: 15px 0 20px;
     border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
+
 #background h1, #background h2, #background h3, #background h4 {
     color: #FFFFFF;
 }
@@ -982,7 +981,7 @@ Menu Styling
 	text-transform: uppercase;
 	color: #fbfbfb;
 }
-.menu ul li a { color: #fbfbfb; text-decoration: none; padding-top: 13px; font-weight: 700; letter-spacing: 1px; transition: all 0.2s ease-in-out; font-size: 14px;}
+.menu ul li a { color: #fbfbfb; text-decoration: none; padding-top: 13px; font-weight: 300; letter-spacing: 1px; transition: all 0.2s ease-in-out; font-size: 14px;}
 .menu ul li a:hover { color: #fbfbfb; text-decoration: none; border-top: 5px solid #fbfbfb; border-bottom: 0px solid transparent; }
 .menu ul li a.cta { color: #ffffff; text-decoration: none; padding: 10px 20px; font-weight: 700; background-color: #0b86c8 ; transition: all 0.2s ease-in-out; border-bottom: 0px solid transparent; border-radius: 3px;}
 .menu ul li a:hover.cta { color: #0b86c8; padding: 10px 20px; background-color: #ffffff ; text-decoration: none; border-top: 0px solid #fbfbfb; border-bottom: 0px solid transparent; border-radius: 3px;}
@@ -1013,7 +1012,7 @@ Menu Styling
     border-radius: 3px;
 }
 .nav ul li {
-    line-height: 1em;
+    line-height: 2.5vw;
     list-style: none outside none;
     margin-left: 0;
     padding: 15px 0 15px 0;
@@ -1022,9 +1021,10 @@ Menu Styling
     border-radius: 3px;
     transition: all 0.2s ease-in-out;
 }
-.nav ul li a, .nav ul li a:hover { font-size: 14px; border-bottom: 0px solid transparent; }
+
+.nav ul li a, .nav ul li a:hover { font-size: 3vw; border-bottom: 0px solid transparent; }
 .nav ul li a:hover { color: #ffffff; border-top: 0px solid transparent; }
-.nav ul li:hover { background-color: #097ECB; }
+.nav ul li:hover { background-color: #43ac64; }
 /*
 ==============================================
 Responsive Syling
@@ -1038,7 +1038,7 @@ Responsive Syling
     .huge-title { top: 25%; }
     .hero { width: 80%; }
     #background {
-        background-image: url("../img/background.jpg");
+        background-image: url("/img/background.jpg");
         background-size: cover;
         width: 100%;
         height: 100%;
