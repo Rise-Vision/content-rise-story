@@ -273,6 +273,39 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   }
 }
 
+@-webkit-keyframes tadaLoop {
+  0% {
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+
+  1%, 2% {
+    -webkit-transform: scale(0.9) rotate(-3deg);
+    transform: scale(0.9) rotate(-3deg);
+  }
+
+  3%, 5%, 7%, 9% {
+    -webkit-transform: scale(1.1) rotate(3deg);
+    transform: scale(1.1) rotate(3deg);
+  }
+
+  4%, 6%, 8% {
+    -webkit-transform: scale(1.1) rotate(-3deg);
+    transform: scale(1.1) rotate(-3deg);
+  }
+
+  10% {
+    -webkit-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+	
+	100% {
+    -webkit-transform: scale(1) rotate(0);
+    transform: scale(1) rotate(0);
+  }
+}
+
+
 @keyframes tada {
   0% {
     -webkit-transform: scale(1);
@@ -306,7 +339,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .tada {
-  -webkit-animation-name: tada;
+	-webkit-animation: tadaLoop infinite;
+
   animation-name: tada;
 }
 
