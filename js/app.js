@@ -152,8 +152,8 @@
         //Video Wallpaper Settings - alter the URL's to your converted videos		
         $("#video_element").wallpaper({
             source: {
-                mp4: "",
-                webm: "videos/alabama-v4.webm"
+                webm: "videos/market-wall-v5.webm",
+				mp4: "videos/market-wall-v5.mp4"
             }
         });
 

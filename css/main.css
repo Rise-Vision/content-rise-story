@@ -330,11 +330,12 @@ h1 {
     color: #FFFFFF;
     letter-spacing: -3px;
 	font-family: 'Raleway', sans-serif;
-	font-size: 6.2vw;
+	font-size: 5.5vw;
 	line-height: 1em;
-	font-weight: 300;
+	font-weight: 700;
 	padding: 0 -10px 30px 0;
 	margin: 0;
+	text-transform: uppercase;
 }
 h2 {
     color: #ffffff;
@@ -352,12 +353,12 @@ h3 {
     color: rgba(255, 255, 255, 1);
     letter-spacing: -1px;
 	font-family: 'Raleway', sans-serif;
-	font-size: 32px;
-	line-height: 1.2em;
+	font-size: 3vw;
+	line-height: 3.5vw;
 	font-weight: 700;
 	padding: 0;
+	font-weight: 200;
 	margin: 0 0 50px 0;
-    text-transform: uppercase;
 }
 .center {
 	text-size:2vw;
@@ -374,7 +375,7 @@ h4 {
 	font-weight: 300;
 	padding: 0 0 20px 0;
 	margin: 0;
-	text-align:left;
+	text-align:center;
 }
 
 .count-num {
@@ -552,9 +553,9 @@ h5 {
 	border-style: solid;
 	border-width: 3px;
 	border-color:#43ac64;
-	border-radius: 17vw;
-	width:17vw;
-	height:17vw;
+	border-radius: 16vw;
+	width:16vw;
+	height:16vw;
 	text-align: center;
 }
 .button-white {
