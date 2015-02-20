@@ -22,7 +22,7 @@ $(document).ready(function() {
 			width: 1920,
 			height: 1080, 
 			delay: 300,
-			tolerance: 0.8,  
+			tolerance: .25,  
 			enableDrag: true,
 			showArrow: true,
 			showButton: true,
@@ -118,7 +118,7 @@ $(document).ready(function() {
 			isMouseDown = false;
 			if (!xdiff) return false;
 			var fullWidth = parseInt(settings.width);
-			var halfWidth = fullWidth / 2;
+			var halfWidth = fullWidth / 4;
 			if (-xdiff > halfWidth - fullWidth * settings.tolerance) {
 				_n++;
 				_n = _n >= bannerNum ? bannerNum - 1 : _n;
@@ -167,7 +167,7 @@ $(document).ready(function() {
 				var _n = currentBannerNum;
                 if (!xdiff) return false;
                 var fullWidth = parseInt(settings.width);
-                var halfWidth = fullWidth / 2;
+                var halfWidth = fullWidth / 4;
                 if (-xdiff > halfWidth - fullWidth * settings.tolerance) {
                     _n++;
                     _n = _n >= bannerNum ? bannerNum - 1 : _n;
