@@ -271,10 +271,12 @@ blockquote p {
 	text-align:center;	
 }
 
+
+
 /*subsequent page arrow*/
 .gonext {
 	position: absolute;
-	top:78vh;
+	top:81vh;
 	left: 0px;
     margin: auto;
     width: 100%;
@@ -429,11 +431,14 @@ h5 {
 	font-family: 'Raleway', sans-serif;
 	width: 100%;
 }
+
+
 .whitecontainer {
     background: none repeat scroll 0 0 #097ecb;
 	width: 100%;
 	height: 100vh;
-	padding: 80px 0;
+    /*changed padding from 80px 0px*/
+	padding:0;
 	overflow: auto;
 }
 .greycontainer {
@@ -447,19 +452,27 @@ h5 {
 	background-color: #07366f; 
     overflow: auto;
     padding: 80px 0;
-	height:100vh;
+	height:108vh;
     -webkit-background-size: cover;
    -moz-background-size: cover;
    background-size: cover;
     background-position: center center;
     background-attachment: fixed;
 }
+
+#Skills {
+    padding:160px 0;
+    height:108vh;
+}
+
+
 .parallax1 p, .parallax1 h2, .parallax2 p, .parallax2 h2 { color: #ffffff; }
 .parallax2 {
     /*background-image: url("../img/background6.jpg");*/
 	background-color: #07366f;
     overflow: auto;
-    padding: 80px 0;
+    /*changed padding from 80px 0px*/
+    padding:0;
 	height:100vh;
     -webkit-background-size: cover;
    -moz-background-size: cover;
@@ -536,6 +549,22 @@ h5 {
 	text-align:left;
     overflow: hidden;
 	height:100vh;
+}
+
+/*added to avoid conflict with other container sizing*/
+.first_slider {
+    width:100vw;
+    top:0;
+}
+
+.second_slider {
+    width:100vw;
+    top:0;
+}
+
+#banner, #banner2 {
+    position: relative; 
+    top:0;
 }
 .content2 {
 	margin: 0 auto;

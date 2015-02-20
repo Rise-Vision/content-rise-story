@@ -129,7 +129,7 @@
         //plusAnchor
         $('body').plusAnchor({
             easing: 'easeInOutExpo',
-            offsetTop: -75,
+            offsetTop: 0,
             speed: 800,
             onInit: function (base) {
 

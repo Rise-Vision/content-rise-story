@@ -22,6 +22,9 @@
 <link rel="stylesheet" href="css/jquery.fs.wallpaper.css" type="text/css" media="all" />
 <link rel="stylesheet" href="css/animate.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="css/jquery.onebyone.css">
+<link rel="stylesheet" href="css/slider1.css">
+<link rel="stylesheet" href="css/slider2.css">
 
 <!-- Finally we will load the font from Google Fonts -->
 <link href='http://fonts.googleapis.com/css?family=Raleway:400,200,300,500,600,700,800,900' rel='stylesheet' type='text/css'>
@@ -142,10 +145,50 @@
         <div class="whitecontainer">
             
             <!-- Start of Content -->
-            <div class="content" id="About">
-                    
-                <h2 class="border wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">What is Rise Vision?</h2>
-                <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Morbi commodo, <a href="#">ipsum sed pharetra gravida</a>, orci magna rhoncus neque, id pulvinar odio lorem non turpis. Nullam sit amet enim. Suspendisse id velit vitae ligula volutpat condimentum. Aliquam erat volutpat. Sed quis velit. Nulla facilisi. Nulla libero. Vivamus pharetra posuere sapien. Nam consectetuer. Sed aliquam, nunc eget euismod ullamcorper, lectus nunc ullamcorper orci, fermentum bibendum enim nibh eget ipsum.</p>
+            <!-- changed class name to avoid conflict -->
+            <div class="content first_slider" id="About">
+                <div id = "banner"> 
+                <!--------------ABOUT-------------->
+                    <div class="oneByOne_item">
+            
+            
+                        <span class="aboutTxt1" data-animate="bounceInRight">Digital Signage</span>
+                        <span class="aboutTxt2" data-animate="bounceInRight">Rise Vision is an Enterprise Digital Signage <span class="bold">Platform</span>.  We provide everything you need to create amazing digital signage for FREE, and you can purchase optional products and <span class="bold">Services</span>, from our <span class="bold">Store</span>.</span>
+                        <img src="img/whatis-about1.svg" class="manageImg1" data-animate="rollIn" alt=""></img>
+                        <img src="img/whatis-about2.svg" class="manageImg2" data-animate="rollIn" alt=""></img>
+                        <img src="img/whatis-about3.svg" class="manageImg3" data-animate="rollIn" alt=""></img>
+                    </div>
+        
+<!--------------CREATE-------------->
+                    <div id="green" class="oneByOne_item">
+
+                        <span class="aboutTxt1" data-animate="bounceInUp">Create</span>
+                        <span class="createTxt2" data-animate="bounceInUp">You can use your favorite editor such as <span class="bold">Brackets</span> or <span class="bold">Sublime Text</span> to create amazing HTML content.  If you’re not comfortable coding, we also offer a basic editor with several <span class="bold">Free Widgets</span> to aid you in creating engaging presentations.</span>
+                        <img src="img/whatis-create.svg" class="createImg1" data-animate="bounceIn"></img>
+                        <img src="img/whatis-create-HTML1.svg" class="createImg2" data-animate="bounceInRight"></img>
+                        <img src="img/whatis-create-HTML2.svg" class="createImg3" data-animate="bounceInRight"></img>
+                        <img src="img/whatis-create-HTML3.svg" class="createImg4" data-animate="bounceInRight"></img>
+            
+                    </div>
+<!--------------MANAGE-------------->
+                    <div class="oneByOne_item">
+                        <span class="aboutTxt1" data-animate="bounceInRight" >Manage</span>
+                        <span class="manageTxt2" data-animate="bounceInRight" >You can manage a digital signage network of any size from one <span class="bold">Browser Login</span>. With just a few clicks, you can <span class="bold">Schedule</span> when you want your content to play. Do it all yourself, or delegate responsibility to other <span class="bold">Users</span>.</span>
+                        <img src="img/whatis-manage1.svg" class="manageImg1" data-animate="rollIn" alt=""></img>
+                        <img src="img/whatis-manage2.svg" class="manageImg2" data-animate="rollIn" alt=""></img>
+                        <img src="img/whatis-manage3.svg" class="manageImg3" data-animate="rollIn" alt=""></img>
+                    </div>
+<!--------------DISPLAY-------------->
+                     <div id="green" class="oneByOne_item">
+                        <span class="aboutTxt1" data-animate="bounceInUp">Display</span>
+                        <span class="displayTxt2" data-animate="bounceInUp">With our Chrome App you can leverage <span class="bold">Chromeboxes</span>, Windows, Linux, or Mac media players to present your content on <span class="bold">Interactive Touch Screens</span>, video walls, or LED/LCD monitors of any size.</span>
+                        <img src="img/whatis-display1.svg" class="displayImg1" data-animate="rollIn" alt=""></img>
+                        <img src="img/whatis-display3.svg" class="displayImg3" data-animate="rollIn" alt=""></img>
+                        <img src="img/whatis-display2.svg" class="displayImg2" data-animate="bounceIn" alt=""></img>
+                    </div>
+                </div>
+            </div>   
+
 
                 <blockquote class="wow fadeInLeftBig" data-wow-offset="80" data-wow-duration="3s"><p>I wish to expand my skills on a daily basis with the help of an employee-focused company.</p></blockquote>
 				
@@ -155,7 +198,7 @@
     		<div class="gonext floating">
 
 				<p><a href="#Skills"><i class="fa fa-angle-down fa-5x"></i></a></p>
-    			</div><!-- End of Scroll Down Icon -->
+    		</div><!-- End of Scroll Down Icon -->
 				
             </div><!-- End of Content -->
             
@@ -238,13 +281,52 @@
         <div class="whitecontainer">
         
             <!-- Start of Content -->
-            <div class="content" id="CV">
+            <div class="content second_slider" id="CV">
 
-                <h2 class="border wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">Why is it Free?</h2>
+                <div id="banner2">
+                <!--------------OUT OF THE WAY-------------->
+                    <div id="green"  class="oneByOne_item">
+            
+                        <span class="aboutTxt1" data-animate="bounceInRight">We get out of the way</span>
+                        <span class="createTxt2"data-animate="bounceInRight">We run on <span class="bold">Google Cloud Platform</span> and we want you to use our non-proprietary HTML content, public server API’s and <span class="bold">Open Source</span> applications to make our platform a unique solution for you.  All the code is available on <span class="bold">GitHub</span> for you to use.</span>
+                        
+                        <img src="img/whyfree-weget1.svg" class="wegetImg1" data-animate="bounceInUp"></img>
+                        <img src="img/whyfree-weget2.svg" class="wegetImg2" data-animate="bounceInUp"></img>
+                        <img src="img/whyfree-weget3.svg" class="wegetImg3" data-animate="bounceInUp"></img>
+            
+                    </div>
+        
+<!--------------SERVICES-------------->
+                    <div class="oneByOne_item">
+
+                        <span class="aboutTxt1" data-animate="bounceInUp">We offer premium services</span>
+                        <span  class="aboutTxt2" data-animate="bounceInUp">While the Rise Vision Platform is <span class="bold">FREE</span>, we do offer optional <span class="bold">Products and Services</span> as value adds that an be purchased from our <span class="bold">Store</span>.</span>
+                    
+                        <img src="img/whyfree-service1.svg" class="servicesImg1" data-animate="rollIn" alt=""></img>
+                        <img src="img/whyfree-service2.svg" class="servicesImg2" data-animate="rollIn" alt=""></img>
+                        <img src="img/whyfree-service3.svg" class="servicesImg3" data-animate="rollIn" alt=""></img>
+                        <img src="img/whyfree-service4.svg" class="servicesImg4" data-animate="rollIn" alt=""></img>
+            
+                    </div>
+<!--------------STORE-------------->
+                    <div id="green"  class="oneByOne_item">
+
+                        <span class="aboutTxt1" data-animate="bounceInRight" >Store</span>
+                        <span class="createTxt2" data-animate="bounceInRight" >As our user community grows we have enabled partners to create <span class="bold">Products &amp; Service</span> that can be sold in our <span class="bold">Store</span> and we make a percentage of those sales.  If you would like to learn more visit our <span class="bold">Store</span>.</span>
+                        <img src="img/whyfree-store1.svg" class="createImg1" data-animate="bounceIn"></img>
+                        <img src="img/whyfree-store2.svg" class="createImg2" data-animate="bounceInUp"></img>
+                        <img src="img/whyfree-store3.svg" class="createImg3" data-animate="bounceInUp"></img>
+                        <img src="img/whyfree-store4.svg" class="createImg4" data-animate="bounceInUp"></img>
+
+                    </div>
+                </div>
+
+
+                <!--<h2 class="border wow fadeInRightBig" data-wow-offset="80" data-wow-duration="2s">Why is it Free?</h2>-->
 
                 <!-- Start of 1/3 Column -->
-                <div class="one_third clearfix wow fadeInUp" data-wow-offset="80" data-wow-duration="2s">
-                </div><!-- End of 1/3 Column -->
+                <!--<div class="one_third clearfix wow fadeInUp" data-wow-offset="80" data-wow-duration="2s">
+                </div>--><!-- End of 1/3 Column -->
 
 
       <!-- Start of Scroll Down Message and animation -->
@@ -320,5 +402,8 @@ if (!window.jQuery) {
 <!--[if IE]><script type="text/javascript" src="excanvas.js"></script><![endif]-->
 <script type="text/javascript" src="js/app.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
+<script type="text/javascript" src="js/jquery.onebyone.js"></script>
+<script type="text/javascript" src="js/jquery.touchwipe.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
 </html>
