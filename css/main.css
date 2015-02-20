@@ -1,4 +1,4 @@
-@charset "UTF-8";
+}@charset "UTF-8";
 /* CSS Document for UNO Personal page - Copyright 2014 Jonathan Atkinson http://cr3ativ.com */
 *, *:before, *:after {
   -moz-box-sizing: border-box;
@@ -32,6 +32,35 @@ footer p {
 	font-size: 14px;
 	line-height: 1.6em;
     text-align: center;
+}
+.mainheaders {
+	position: absolute;
+	top:5vw;
+	left:5vw;
+	font-size: 4vw;
+	color:#ffffff;
+	z-index: 999;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-align: left;
+	
+}
+
+.maincontent {
+	position: absolute;
+	top:10vw;
+	left:5vw;
+	width: 90vw;
+	z-index: 99;
+	text-align: left;
+}
+
+.maintext {
+	font-size: 2vw;
+	color:#ffffff;
+	font-weight: 200;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
 }
 
 button {
@@ -264,7 +293,7 @@ blockquote p {
 /*home page arrow*/
 .godown {
 	position: absolute;
-	top:85vh;
+	top:88vh;
 	z-index:999;
 	width: 20vw;
 	left:40vw;
@@ -276,7 +305,7 @@ blockquote p {
 /*subsequent page arrow*/
 .gonext {
 	position: absolute;
-	top:81vh;
+	top:88vh;
 	left: 0px;
     margin: auto;
     width: 100%;
@@ -460,10 +489,7 @@ h5 {
     background-attachment: fixed;
 }
 
-#Skills {
-    padding:160px 0;
-    height:108vh;
-}
+
 
 
 .parallax1 p, .parallax1 h2, .parallax2 p, .parallax2 h2 { color: #ffffff; }
@@ -545,7 +571,7 @@ h5 {
 	margin: 0 auto;
 	position:relative;
 	z-index: 80;
-	width: 1170px;
+	width: 100vw;
 	text-align:left;
     overflow: hidden;
 	height:100vh;
