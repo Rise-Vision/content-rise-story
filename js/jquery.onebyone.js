@@ -22,7 +22,7 @@ $(document).ready(function() {
 			width: 1920,
 			height: 1080, 
 			delay: 300,
-			tolerance: 0.25,  
+			tolerance: 0.8,  
 			enableDrag: true,
 			showArrow: true,
 			showButton: true,
