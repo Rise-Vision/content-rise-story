@@ -39,7 +39,7 @@ body{
 
 #banner2 .oneByOne_item{
 	position: absolute;
-	top:-80px;
+	top:0;
 	width: 100vw;
 	height: 109vh;  
 	overflow: hidden;  
@@ -236,28 +236,28 @@ body{
  
 #banner2 img.servicesImg1{
 	position: absolute;
-	top: 55vh;
+	top: 53vh;
 	left: 8vw;
 	width:15vw;
 }
 
 #banner2 img.servicesImg2{
 	position: absolute;
-	top: 55vh;
+	top: 53vh;
 	left: 31vw;
 	width:15vw;
 }  
 
 #banner2 img.servicesImg3{
 	position: absolute;
-	top: 55vh;
+	top: 53vh;
 	left: 54vw;
 	width:15vw;
 } 
 
 #banner2 img.servicesImg4{
 	position: absolute;
-	top: 55vh;
+	top: 53vh;
 	left: 77vw;
 	width:15vw;
 }  
