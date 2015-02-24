@@ -166,10 +166,10 @@ body{
   	clear: left;
 	position: relative;
 	float: left;
-	margin: 0px 5vw 0 5vw;
+	margin: 20vh 5vw 1vh 5vw;   
 	color: #FFFFFF;  
 	font-size: 3vw;
-	width:80vw;
+	width:90vw;
 	font-weight: 200;
 }  
 
@@ -286,7 +286,7 @@ body{
 	margin: 0px 5vw 0 5vw;
 	color: #FFFFFF;  
 	font-size: 3vw;
-	width:80vw;
+	width:90vw;
 	font-weight: 200;            
 }  
 

@@ -204,9 +204,6 @@
 
 /* Title helper */
 
-
-
-
 .fancybox-effects-c {
 	color:white;
 }
@@ -235,6 +232,8 @@
 	text-align: center;
 }
 
+
+<!-- CAPTION -->
 .fancybox-title-float-wrap .child {
 	display: inline-block;
 	margin-right: -100%;

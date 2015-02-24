@@ -27,7 +27,7 @@ $(document).ready(function() {
 			showArrow: true,
 			showButton: true,
 			slideShow: false,
-			slideShowDelay: 3000
+			slideShowDelay: 9000
 		}; 	          	
 
 		// extends settings with options provided
