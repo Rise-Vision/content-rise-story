@@ -12,9 +12,20 @@ $(document).ready(function() {
 			showArrow:false
 		}); 
 
-		//Why is it free? slide controls
+		//How is it free? slide controls
 
 		$('#banner2').oneByOne({
+			className: 'oneByOne',
+			easeType: 'random',
+			showArrow: true,
+			slideShow: true,
+			enableDrag: true,
+			showArrow:false
+		});
+	
+	//Who Uses Rise? slide controls
+
+		$('#banner3').oneByOne({
 			className: 'oneByOne',
 			easeType: 'random',
 			showArrow: true,

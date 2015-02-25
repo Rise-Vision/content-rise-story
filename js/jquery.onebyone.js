@@ -336,6 +336,10 @@ $(document).ready(function() {
 		$('#banner2').on('touchstart', function() {
 			resetCondition = true;
 		});
+		
+		$('#banner3').on('touchstart', function() {
+			resetCondition = true;
+		});
 		//====
   		
   		$(function(){
