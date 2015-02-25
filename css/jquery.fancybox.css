@@ -212,11 +212,13 @@
 	visibility: hidden;
 	font-family: 'Raleway', sans-serif;
 	font-size:2vw;
-	width:600px;
+	left:-32.5vw;
+	width:80vw;
 	position: relative;
 	text-shadow: none;
-	z-index: 8050;
+	z-index: 99;
 	font-weight: 300;
+	color:#fff;
 }
 
 .fancybox-opened .fancybox-title {
@@ -226,7 +228,6 @@
 .fancybox-title-float-wrap {
 	position: absolute;
 	bottom: 0;
-	right: 50%;
 	margin-bottom: -150px;
 	z-index: 8050;
 	text-align: center;

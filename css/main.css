@@ -22,6 +22,7 @@ body, html {
     position: relative;
 	text-rendering: optimizeLegibility;
     background-position: center center;
+	-webkit-tap-highlight-color: rgba(0,0,0,0);
 }
 	
 footer { background-color: #262B30; padding: 20px 0 50px 0; }
@@ -386,7 +387,7 @@ h3 {
 	font-family: 'Raleway', sans-serif;
 	font-size: 3vw;
 	line-height: 3.5vw;
-	font-weight: 700;
+	font-weight: 300;
 	padding: 0;
 	font-weight: 200;
 	margin: 0 0 50px 0;
@@ -588,7 +589,13 @@ h5 {
     top:0;
 }
 
-#banner, #banner2 {
+.third_slider {
+    width:100vw;
+    top:0;
+}
+
+
+#banner, #banner2, #banner3{
     position: relative; 
     top:0;
 }
