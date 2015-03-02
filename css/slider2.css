@@ -21,17 +21,11 @@ body{
 	margin: 0;
 	width: 100vw;
 	height: 109vh;   
-	/*background: #EFEFEF url(../images/assets/paven.png) repeat;*/
-	background-color: #0074bf;
 	position: relative;
 	overflow: hidden;
 
 }  
 
-#green {
-	background-color: #3bad65;
-	
-}
 
 .bold {
 	font-weight: 600;
@@ -174,7 +168,6 @@ body{
 	font-size: 4vw;
 	width:80vw;
 	font-weight: 300;
-
 }
  
 #banner2 .oneByOne_item span.aboutTxt2{ 

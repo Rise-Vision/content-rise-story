@@ -1,4 +1,4 @@
-}body,
+body,
 html{
     text-align: center;
     color: white;
@@ -43,6 +43,6 @@ div.pinch-zoom {
 }
 
 div.pinch-zoom-container {
-	height:306px !important;
+	height:400px !important;
 }
 	

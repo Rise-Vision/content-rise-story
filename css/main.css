@@ -47,6 +47,22 @@ footer p {
 	
 }
 
+.whohead {
+	left:5vw;
+	font-size: 4vw;
+	color:#ffffff;
+	z-index: 999;
+	font-weight: 200;
+	text-align: left;	
+}
+
+.whotext {  
+	left:5vw;
+	margin-top: -1vw;
+	font-size: 2vw;
+	font-weight: 200;	
+}
+
 .maincontent {
 	position: absolute;
 	top:10vw;
@@ -311,6 +327,8 @@ blockquote p {
     margin: auto;
     width: 100%;
 	text-align:center;
+	height: 50px;
+	font-size:40px;
     z-index:999;
 }
 
@@ -495,8 +513,7 @@ h5 {
 
 .parallax1 p, .parallax1 h2, .parallax2 p, .parallax2 h2 { color: #ffffff; }
 .parallax2 {
-    /*background-image: url("../img/background6.jpg");*/
-	background-color: #07366f;
+    background-image: url("../img/background5.jpg");
     overflow: auto;
     /*changed padding from 80px 0px*/
     padding:0;
