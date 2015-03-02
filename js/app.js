@@ -40,7 +40,7 @@
         $(window).scroll(function () {
             if ($(window).scrollTop() < 300) {
                 $('#socialsection').css({
-                    opacity: "0"
+                    opacity: "1"
                 }, 500);
             } else if ($(window).scrollTop() > 300) {
                 $('#socialsection').css({
@@ -129,7 +129,7 @@
         //plusAnchor
         $('body').plusAnchor({
             easing: 'easeInOutExpo',
-            offsetTop: -75,
+            offsetTop: 0,
             speed: 800,
             onInit: function (base) {
 
@@ -152,9 +152,8 @@
         //Video Wallpaper Settings - alter the URL's to your converted videos		
         $("#video_element").wallpaper({
             source: {
-                mp4: "videos/clouds2.mp4",
-                ogg: "videos/clouds2.ogv",
-                webm: "videos/clouds2.webm"
+                webm: "videos/background-video.webm",
+				mp4: "videos/background-video.mp4"
             }
         });
 
