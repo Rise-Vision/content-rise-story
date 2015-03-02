@@ -317,3 +317,10 @@ body{
 .clear{
 	clear: both;
 }
+
+#banner2 .oneByOne_item .pinch_image div.pinch-zoom,
+#banner2 .oneByOne_item .pinch_image div.pinch-zoom img{
+            width: 100%;
+            -webkit-user-drag: none;
+			}
+

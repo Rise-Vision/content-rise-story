@@ -5,7 +5,7 @@ $(document).ready(function() {
 		
         $('#banner').oneByOne({
 			className: 'oneByOne',	             
-			easeType: 'bounceInDown',
+			easeType: 'fadeInLeft',
 			slideShow: true,
 			showButton: true,
 			enableDrag: true,
@@ -16,7 +16,7 @@ $(document).ready(function() {
 
 		$('#banner2').oneByOne({
 			className: 'oneByOne',
-			easeType: 'random',
+			easeType: 'fadeInLeft',
 			showArrow: true,
 			slideShow: true,
 			enableDrag: true,
@@ -27,12 +27,73 @@ $(document).ready(function() {
 
 		$('#banner3').oneByOne({
 			className: 'oneByOne',
-			easeType: 'random',
+			easeType: 'fadeInLeft',
+
 			showArrow: true,
 			slideShow: true,
 			enableDrag: true,
 			showArrow:false
 		});
+
+
+
+	//automatic page scroll controls
+	
+		var sectionOne = $('#video_element');
+		var sectionTwo = $('#banner');
+		var sectionThree = $('#banner2');
+		var sectionFour = $('#CV');
+		var sectionFive = $('#Testimonials');
+		var slideCounter = 0;
+	
+
+		var automaticPageScrollTimer = function (scrollElement, scrollTime){
+		 var speed = scrollTime;
+    	$('html,body').animate({
+        scrollTop: $(scrollElement).offset().top
+    	}, speed);
+		console.log('testingScroll')
+		slideCounter++
+		}
+
+		var scrollController = function(){
+			
+			if (slideCounter === 0){
+			automaticPageScrollTimer(sectionTwo,1000);
+			clearInterval(scrollTimeSetter);
+			scrollTimeSetter = setInterval(scrollController,40000);
+		} else if (slideCounter === 1){
+			automaticPageScrollTimer(sectionThree,1000);
+			clearInterval(scrollTimeSetter);
+			scrollTimeSetter = setInterval(scrollController,36000);
+		} else if (slideCounter === 2){
+			automaticPageScrollTimer(sectionFour,1000);
+			clearInterval(scrollTimeSetter);
+			scrollTimeSetter = setInterval(scrollController,30000);
+		} else if (slideCounter === 3){
+			automaticPageScrollTimer(sectionFive,1000);
+			clearInterval(scrollTimeSetter);
+			scrollTimeSetter = setInterval(scrollController,15000);
+		} else if (slideCounter === 4){
+			automaticPageScrollTimer(sectionOne,1000);
+			slideCounter = 0;
+			clearInterval(scrollTimeSetter);
+			scrollTimeSetter = setInterval(scrollController,15000);
+		}
+		}
+		//==========
+		//un-comment this line to start the autoscrolling for the page
+
+		// var scrollTimeSetter = setInterval(scrollController,15000);
 		
-		
+		//==========
+
+		//calling pinch-zoom effect
+		$('div.pinch-zoom').each(function () {
+                new RTP.PinchZoom($(this), {});
+            });
+
 	 });
+
+	
+
