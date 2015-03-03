@@ -33,15 +33,6 @@
 
 <!-- Sign up Free button with QR Code -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>	
-<script>
-	$(document).ready(function () {
-    
-    $('button').click( function () {
-        $('#message-box').slideDown('slow').delay(12000).slideUp('slow');
-    });
-    
-});
-	</script>
 	
 	
 </head>
@@ -94,16 +85,16 @@
         <!-- Start of Owl Testimonial Carousel -->
         <div class="testimonials owl-carousel">
 
-            <div><!-- Start of Slide 1 -->
-                <div class="button-box"><span class="count-num">54,875</span><br><span class="count-txt">total accounts<br> created</span></div>
+            <div class="slide1"><!-- Start of Slide 1 -->
+                <div class="button-box"><br><span class="count-txt">total accounts<br> created</span></div>
             </div>
 
-            <div><!-- Start of Slide 2 -->
-                <div class="button-box"><span class="count-num">41</span><br><span class="count-txt">Accounts <br>Added Yesterday</span></div>
+            <div class="slide2"><!-- Start of Slide 2 -->
+                <div class="button-box"><br><span class="count-txt">Accounts <br>Added Yesterday</span></div>
             </div>
 
-            <div><!-- Start of Slide 3 -->
-                <div class="button-box"><span class="count-num">118</span><br><span class="count-txt">Installed in <br>Countries</span></div>
+            <div class="slide3"><!-- Start of Slide 3 -->
+                <div class="button-box"><br><span class="count-txt">Installed in <br>Countries</span></div>
             </div>
 
         </div><!-- End of Owl Testimonial Carousel -->
@@ -126,8 +117,10 @@
 
 	<!-- Sign up Free button with QR Code -->
 <button><img src="img/google_256.png"/>&ensp;&ensp;Sign Up Free</button>
-<div id="message-box"><img src="img/qrcode.png"/></div>
-		<div>
+<div id="message-box">
+    <img src="img/qrcode.png" class="QRcode"/></div>
+</div>
+		
 
 <!-- Start of Scroll Down Message and animation -->
     		<div class="floating godown">
@@ -456,5 +449,6 @@ if (!window.jQuery) {
 <script type="text/javascript" src="js/underscore-min.js"></script>
 <script type="text/javascript" src="js/pinchzoom.js"></script>
 <script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/xmlcall.js"></script>
 </body>
 </html>
