@@ -45,4 +45,10 @@ div.pinch-zoom {
 div.pinch-zoom-container {
 	height:400px !important;
 }
-	
+
+@media (min-width: 2000px) {
+  div.pinch-zoom-container {
+	height:800px !important;
+}
+
+}	
