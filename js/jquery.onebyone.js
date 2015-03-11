@@ -167,7 +167,7 @@ $(document).ready(function() {
 				var _n = currentBannerNum;
                 if (!xdiff) return false;
                 var fullWidth = parseInt(settings.width);
-                var halfWidth = fullWidth / 4;
+                var halfWidth = fullWidth / 6;
                 if (-xdiff > halfWidth - fullWidth * settings.tolerance) {
                     _n++;
                     _n = _n >= bannerNum ? bannerNum - 1 : _n;
